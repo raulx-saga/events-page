@@ -1,0 +1,141 @@
+@font-face{
+    font-family:  batman;
+   src:url(batman.ttf)
+}
+
+@font-face{
+    font-family:  valorant;
+   src:url(valorant.ttf)
+}
+
+@font-face{
+    font-family:  montserrat;
+   src:url(montserrat.ttf)
+}
+
+*{
+    background-color:#1e1e1e;
+}
+
+header{
+    font-size:14px;
+    font-family:'montserrat' ;
+    display:flex;
+    justify-content:center;
+    color:white;
+    align-items:center;
+    width:800px;
+    height:71px;
+    margin:0px auto;
+}
+
+#logo{
+    background:url(logo.png);
+    width:372px;
+    height:71px;
+
+}
+
+header div{
+    width:110px;
+    height:17px;
+    text-decoration: none;
+}
+
+.mainheading{
+    font-family: batman;
+    text-align: center;
+    color: #D4BC3F;
+    font-size: 70px;
+    height:150px;
+    width:100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 0%;
+}
+
+.tagline{
+    font-family: montserrat, bold;
+    font-style: normal;
+    text-align: center;
+    color: #c7c7c6;
+    font-size: 30px;
+    height:30px;
+    width:100%;
+    margin:10px auto;
+    text-transform: uppercase;
+
+}
+
+.threegames{
+    background-image: url(redbg1.png);
+    width:100%;
+    height:700px;
+    display:flex;
+    align-items: end;
+    justify-content:space-evenly;
+    
+    
+    
+
+}
+
+#evenclass{
+    border: transparent 1px solid;
+    margin:1px transparent;
+    padding-bottom:150px;
+    background-color: #0B2E33;
+    
+}
+
+
+.oddclass{
+    border: transparent 1px solid;
+    margin:1px #0B2E33;
+    padding-bottom:50px;
+    background-color: #0B2E33;
+    
+}
+
+img{
+    background-color: #0B2E33;
+}
+
+
+
+/*
+.home{
+    width:46px;
+    height:17px;
+    text-decoration: none;
+}
+
+.events{
+    width:53px;
+    height:17px;
+}
+
+.acco{
+    width:110px;
+    height:17px;
+}
+
+.con{
+    width:95px;
+    height:17px;
+} */
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.hr{
+    width:100%;
+    height:1px;
+    background-color: white;
+}
+
+
+
